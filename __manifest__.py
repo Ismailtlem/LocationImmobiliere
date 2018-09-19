@@ -3,8 +3,8 @@
     'name': "Location des Biens Immobiliers",
 
 
-    'author': "OdooFreelanceService",
-    'website': "http://www.odoofreelanceservice.com",
+    'author': "GoAddons",
+    'website': "http://www.goaddons.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
