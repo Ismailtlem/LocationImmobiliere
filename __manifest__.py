@@ -11,8 +11,6 @@
     # for the full list
     'category': 'Uncategorized',
     'version': '0.1',
-    'price': 97,
-    'currency': 'EUR',
 
     # any module necessary for this one to work correctly
     'depends': ['base','mail','portal','resource','analytic'],
