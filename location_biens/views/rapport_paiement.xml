@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <!-- Rapport Paiement Tree View-->
+
+        <record model="ir.ui.view" id="rapport_paiement_tree_view">
+            <field name="name">rapport.paiement.tree</field>
+            <field name="model">lb.paiement</field>
+            <field name="arch" type="xml">
+                <tree string="Rapport Paiement Tree" create="false">
+                    <field name="statut_location_id"/>
+                    <field name="paiement_id" string="Biens"/>
+                    <field name="locataire_id"/>
+                    <field name="fin_bail_id"/>
+                    <field name="date_paiement"/>
+                    <field name="objet_paiement"/>
+                    <field name="montant_paye" sum="Total des paiements"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Rapport Paiement Form View-->
+
+        <record model="ir.ui.view" id="rapport_paiement_form_view">
+            <field name="name">rapport.paiement.form</field>
+            <field name="model">lb.paiement</field>
+            <field name="arch" type="xml">
+                <form string="Rapport Paiement Form" create="false" edit="false">
+					<sheet>
+					    <group>
+							<field name="statut_location_id"/>
+							<field name="paiement_id"/>
+							<field name="locataire_id"/>
+							<field name="fin_bail_id"/>
+							<field name="date_paiement"/>
+							<field name="objet_paiement"/>
+							<field name="montant_paye" sum="Total des paiements"/>
+					    </group>
+					</sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <!-- Rapport Paiement search view -->
+        <record id="view_rapport_paiement_filter" model="ir.ui.view">
+            <field name="name">Rechercher dans rapport de paiement</field>
+            <field name="model">lb.paiement</field>
+            <field name="arch" type="xml">
+                <search string="Rechercher Location">
+                    <field name="locataire_id"/>
+                    <field name="fin_bail_id"/>
+                    <field name="date_paiement"/>
+                    <field name="objet_paiement"/>
+                    <field name="montant_paye"/>
+                </search>
+            </field>
+        </record>
+
+
+        <record model="ir.actions.act_window" id="rapport_paiement_list_action">
+            <field name="name">Rapport Paiement</field>
+            <field name="res_model">lb.paiement</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="view_rapport_paiement_filter"/>
+        </record>
+
+
+        <menuitem id="rapport_menu" name="Rapports"
+                  parent="rental_app_menu" sequence="7"/>
+        <menuitem id="rapport_rapport_menu" name="Rapport de paiements"
+                  parent="rapport_menu"
+                  action="rapport_paiement_list_action"/>
+
+    </data>
+</odoo>
