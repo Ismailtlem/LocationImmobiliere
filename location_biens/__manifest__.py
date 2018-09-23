@@ -5,6 +5,10 @@
 
     'author': "GoAddons",
     'website': "http://www.goaddons.com",
+    'description': """
+Module pour la gestion locative des biens immobiliers
+    """,
+
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
