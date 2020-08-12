@@ -1,2 +1,2 @@
 # LocationImmobiliere
-Module pour gestion des biens immobiliers pour agences immobilieres
+Module pour gestion des biens immobiliers pour agences immobilières
