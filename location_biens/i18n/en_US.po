@@ -1,0 +1,1285 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* location_biens
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-12 19:02+0000\n"
+"PO-Revision-Date: 2020-08-12 19:02+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "10"
+msgstr "10"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "11"
+msgstr "11"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "12"
+msgstr "12"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "13"
+msgstr "13"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "14"
+msgstr "14"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "15"
+msgstr "15"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "16"
+msgstr "16"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "17"
+msgstr "17"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "18"
+msgstr "18"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "19"
+msgstr "19"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "20"
+msgstr "20"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "21"
+msgstr "21"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "22"
+msgstr "22"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "23"
+msgstr "23"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "24"
+msgstr "24"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "25"
+msgstr "25"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "26"
+msgstr "26"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "27"
+msgstr "27"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "28"
+msgstr "28"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "29"
+msgstr "29"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "30"
+msgstr "30"
+
+#. module: location_biens
+#: selection:lb.location,date_quittancement:0
+msgid "31"
+msgstr "31"
+
+#. module: location_biens
+#: code:addons/location_biens/models/locations.py:100
+#, python-format
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                        Cliquez sur Créer (et non importer) pour ajouter vos contrats de location</p><p>\n"
+"                    </p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                        Cliquez sur Créer (et non importer) pour ajouter vos contrats de location</p><p>\n"
+"                    </p>"
+
+#. module: location_biens
+#: code:addons/location_biens/models/biens.py:63
+#: code:addons/location_biens/models/etat_des_lieux.py:47
+#, python-format
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                        Cliquez sur créer (et non importer) pour ajouter les images associées à vos biens.</p><p>\n"
+"                    </p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                        Cliquez sur créer (et non importer) pour ajouter les images associées à vos biens.</p><p>\n"
+"                    </p>"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.bien_form_view
+msgid "<span>m²</span>"
+msgstr "<span>m²</span>"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_location_bien
+msgid "Acces Bien"
+msgstr "Accesss Homes"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_contact
+msgid "Acces Contact"
+msgstr "Accesss Contact"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_location_locataire
+msgid "Acces Locataire"
+msgstr "Accesss Tenannt"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_locataire_potentiel
+msgid "Acces Locataire Potentiel"
+msgstr "Accesss potential tenant"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_quartier
+msgid "Acces Quartier"
+msgstr "Access neighborhood"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_location_type
+msgid "Acces Type"
+msgstr "Access Type"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_ville
+msgid "Acces Ville"
+msgstr "Access City"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_location_enregistrementetat
+msgid "Acces enregistrement etat"
+msgstr "Access save stats"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_location_etat_des_lieux
+msgid "Acces etat des lieux"
+msgstr "Access checkout"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_location_location
+msgid "Acces location"
+msgstr "Access rental"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_location_paiement
+msgid "Acces paiement"
+msgstr "Access payment"
+
+#. module: location_biens
+#: model:res.groups,name:location_biens.acces_module_location_proprietaire
+msgid "Acces proprietaire"
+msgstr "Access landlord"
+
+#. module: location_biens
+#: selection:lb.location,statut_location:0
+msgid "Actif"
+msgstr "Active"
+
+#. module: location_biens
+#: model:ir.model.fields,help:location_biens.field_lb_bailleur_poste_occupe
+msgid "Activité professionelle du propriétaire"
+msgstr "Job of the landlord"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.bailleur_form_view
+#: model:ir.ui.view,arch_db:location_biens.bien_form_view
+#: model:ir.ui.view,arch_db:location_biens.bien_tree_view
+msgid "Adresse"
+msgstr "Adress"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.bailleur_form_view
+#: model:ir.ui.view,arch_db:location_biens.bien_form_view
+msgid "Adresse ..."
+msgstr "Adress ..."
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.location_tree_view
+msgid "Adresse du bien"
+msgstr "Home address"
+
+#. module: location_biens
+#: selection:lb.location,paiement:0
+msgid "Annuel"
+msgstr "Annuel"
+
+#. module: location_biens
+#: code:addons/location_biens/models/biens.py:56
+#: code:addons/location_biens/models/etat_des_lieux.py:40
+#: code:addons/location_biens/models/locations.py:93
+#, python-format
+msgid "Attachments"
+msgstr "Attachments"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_autre_paiement
+#: model:ir.ui.view,arch_db:location_biens.location_form_view
+msgid "Autre Paiements"
+msgstr "Other payments"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_description_autre_Payment
+msgid "Autre Paiements : Description"
+msgstr "Other Payments : Description"
+
+#. module: location_biens
+#: selection:lb.paiement,objet_paiement:0
+msgid "Autres Paiements"
+msgstr "Other Payments"
+
+#. module: location_biens
+#: selection:lb.paiement,objet_paiement:0
+msgid "Avance"
+msgstr "Deposit"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_bailleur_id
+msgid "Bailleur"
+msgstr "Landlord"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.bailleur_form_view
+msgid "Bailleur Form"
+msgstr "Landlord Form"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.bailleurs_tree_view
+msgid "Bailleur Tree"
+msgstr "Landlord Tree"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.bailleur_list_action
+#: model:ir.ui.menu,name:location_biens.bailleur_menu
+msgid "Bailleurs"
+msgstr "Landlords"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.bien_form_view
+msgid "Bien Form"
+msgstr "Home Form"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_bien_loue
+msgid "Bien Loué"
+msgstr "Rented homes"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.bien_tree_view
+msgid "Bien Tree"
+msgstr "Home Tree"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.bien_list_action
+#: model:ir.ui.menu,name:location_biens.bien_bien_menu
+#: model:ir.ui.menu,name:location_biens.bien_menu
+#: model:ir.ui.view,arch_db:location_biens.rapport_paiement_tree_view
+msgid "Biens"
+msgstr "Homes"
+
+#. module: location_biens
+#: selection:lb.location,paiement:0
+msgid "Bimestriel"
+msgstr "Bimestriel"
+
+#. module: location_biens
+#: selection:lb.enregistrement_etat_des_lieux,Etat:0
+msgid "Bon état"
+msgstr "Good state"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_budget
+msgid "Budget"
+msgstr "Budget"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.locataire_custom_fields
+msgid "CIN / Passeport"
+msgstr "CIN / Passport"
+
+#. module: location_biens
+#: selection:res.partner,type_piece_identite:0
+msgid "Carte de séjour"
+msgstr "Residence permit"
+
+#. module: location_biens
+#: selection:res.partner,type_piece_identite:0
+msgid "Carte national d'identité"
+msgstr "National ID Card"
+
+#. module: location_biens
+#: sql_constraint:lb.location:0
+msgid "Ce bien est déjà sous location"
+msgstr "This home is already rented"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_charges_loyer
+msgid "Charges"
+msgstr "Charges"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_civilite
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_civilite
+msgid "Civilité"
+msgstr "Title"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_code_postale
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_code_postale
+msgid "Code Postal"
+msgstr "Postal code"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.bailleur_form_view
+#: model:ir.ui.view,arch_db:location_biens.bien_form_view
+msgid "Code Postale"
+msgstr "Postal code"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux_commentaires
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_commentaire_paiement
+msgid "Commentaire"
+msgstr "Comment"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_company_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_company_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_company_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_company_id
+msgid "Company"
+msgstr "Company"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_condition_particuliere
+msgid "Conditions"
+msgstr "Conditions"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.location_form_view
+msgid "Conditions Particulières"
+msgstr "Particular conditions"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_res_partner
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_contact_id
+#: model:ir.model.fields,field_description:location_biens.field_res_partner_enregistrement_contact
+#: model:ir.model.fields,field_description:location_biens.field_res_users_enregistrement_contact
+#: model:ir.ui.view,arch_db:location_biens.locataire_custom_fields
+msgid "Contact"
+msgstr "Contact"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.location_form_view
+msgid "Contrats"
+msgstr "Contracts"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_create_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_create_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_create_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux_create_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_create_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_create_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_create_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_create_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_quartier_create_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_type_create_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_ville_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_create_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_create_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_create_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux_create_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_create_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_create_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_create_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_create_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_quartier_create_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_type_create_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_ville_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.locataire_custom_fields
+msgid "Créer un Contact"
+msgstr "Create a contract"
+
+#. module: location_biens
+#: model:ir.actions.act_window,help:location_biens.bien_list_action
+msgid "Créer un nouveau Bien"
+msgstr "Create a new home"
+
+#. module: location_biens
+#: model:ir.actions.act_window,help:location_biens.locataire_list_action
+msgid "Créer un nouveau Locataire"
+msgstr "Create a new tenant"
+
+#. module: location_biens
+#: model:ir.actions.act_window,help:location_biens.locataire_potentiel_list_action
+msgid "Créer un nouveau Locataire potentiel"
+msgstr "Create a new potential tenant"
+
+#. module: location_biens
+#: model:ir.actions.act_window,help:location_biens.type_list_action
+msgid "Créer un nouveau Type"
+msgstr "Create a new Type"
+
+#. module: location_biens
+#: model:ir.actions.act_window,help:location_biens.bailleur_list_action
+msgid "Créer un nouveau bailleur"
+msgstr "Create a new landlord"
+
+#. module: location_biens
+#: model:ir.actions.act_window,help:location_biens.etat_des_lieux_list_action
+msgid "Créer un nouvel état des lieux"
+msgstr "Create a new checkout"
+
+#. module: location_biens
+#: model:ir.actions.act_window,help:location_biens.location_list_action
+msgid "Créer une nouvelle location"
+msgstr "Create a new rental"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_currency_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_currency_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_currency_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_currency_id
+msgid "Currency"
+msgstr "Currency"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_date_etat_des_lieux
+msgid "Date"
+msgstr "Date"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_date_paiement
+msgid "Date de Paiement"
+msgstr "Date of Payment"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_date_quittancement
+msgid "Date de quittancement"
+msgstr "Date of receipt"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_description
+#: model:ir.ui.view,arch_db:location_biens.location_form_view
+msgid "Description"
+msgstr "Description"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_display_name
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_display_name
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_display_name
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux_display_name
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_display_name
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_display_name
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_display_name
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_display_name
+#: model:ir.model.fields,field_description:location_biens.field_lb_quartier_display_name
+#: model:ir.model.fields,field_description:location_biens.field_lb_type_display_name
+#: model:ir.model.fields,field_description:location_biens.field_lb_ville_display_name
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_doc_count
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_doc_count
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_doc_count
+msgid "Documents"
+msgstr "Documents"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_debut_bail
+msgid "Début du Bail"
+msgstr "Start date of the rental period"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_email
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_email_contact
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_email
+#: model:ir.ui.view,arch_db:location_biens.locataire_custom_fields
+#: model:ir.ui.view,arch_db:location_biens.locataire_custom_tree_fields
+msgid "E-mail"
+msgstr "E-mail"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.garant_list_action
+msgid "Enregistrement Etat des lieux"
+msgstr "Save checkout"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.enregistrement_etat_des_lieux_form_view
+msgid "Enregistrement Etat des lieux Form"
+msgstr "Save checkout Form"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.location_form_view
+msgid "Enregistrement des paiements"
+msgstr "Save payments"
+
+#. module: location_biens
+#: model:ir.actions.act_window,help:location_biens.quartier_list_action
+msgid "Entrez ici les quartiers dans lesquelles l'agence immobilière gère des biens"
+msgstr "Enter here the areas where your agency is managing homes"
+
+#. module: location_biens
+#: model:ir.actions.act_window,help:location_biens.ville_list_action
+msgid "Entrez ici les villes dans lesquelles l'agence immobilière gère des biens"
+msgstr "Enter here the cities where your agency is managing homes"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux_Etat
+msgid "Etat"
+msgstr "State"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.etat_des_lieux_list_action
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux_etat_des_lieux_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_enregistrement_etat_des_lieux
+#: model:ir.ui.menu,name:location_biens.etat_des_lieux_menu
+#: model:ir.ui.view,arch_db:location_biens.etat_des_lieux_form_view
+msgid "Etat des lieux"
+msgstr "Checkout"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.etat_des_lieux_form_view
+msgid "Etat des lieux Form"
+msgstr "Checkout Form"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.etat_des_lieux_tree_view
+msgid "Etat des lieux Tree"
+msgstr "Checkout Tree"
+
+#. module: location_biens
+#: selection:lb.etat_des_lieux,etat_des_lieux_type:0
+msgid "Etat des lieux d'entrée"
+msgstr "Checkin"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_etat_des_lieux_entree_associe
+msgid "Etat des lieux d'entrée associé"
+msgstr "Associated checkin"
+
+#. module: location_biens
+#: selection:lb.etat_des_lieux,etat_des_lieux_type:0
+msgid "Etat des lieux de sortie"
+msgstr "Checkout"
+
+#. module: location_biens
+#: selection:lb.enregistrement_etat_des_lieux,Etat:0
+msgid "Etat moyen"
+msgstr "Average state"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_fin_bail
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_fin_bail_id
+msgid "Fin du Bail"
+msgstr "End of the contract"
+
+#. module: location_biens
+#: selection:lb.location,paiement:0
+msgid "Forfaitaire"
+msgstr "Forfaitaire"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_frais_retard
+msgid "Frais de retard (%)"
+msgstr "Additional fees"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_quartier_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_type_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_ville_id
+msgid "ID"
+msgstr "ID"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_ref_etat_des_lieux
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_ref_location
+msgid "Identifiant"
+msgstr "ID"
+
+#. module: location_biens
+#: model:ir.model.fields,help:location_biens.field_lb_location_ref_location
+msgid "Identifiant de la location"
+msgstr "ID of the rental period"
+
+#. module: location_biens
+#: model:ir.model.fields,help:location_biens.field_lb_etat_des_lieux_ref_etat_des_lieux
+msgid "Identifiant unique de l'état des lieux"
+msgstr "Unique ID of checkout"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.bien_form_view
+#: model:ir.ui.view,arch_db:location_biens.etat_des_lieux_form_view
+msgid "Images"
+msgstr "Images"
+
+#. module: location_biens
+#: selection:lb.location,statut_location:0
+msgid "Inactif"
+msgstr "Inactive"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.location_form_view
+msgid "Information à titre indicatif"
+msgstr "Good to know information"
+
+#. module: location_biens
+#: model:ir.model.fields,help:location_biens.field_lb_location_date_quittancement
+msgid "La date selon laquelle vos quittances seraient datées"
+msgstr "The date of your receipts"
+
+#. module: location_biens
+#: sql_constraint:lb.etat_des_lieux:0
+msgid "La référence doit être unique"
+msgstr "The reference must be unique"
+
+#. module: location_biens
+#: sql_constraint:lb.bien:0
+msgid "La référence du bien doit être unique"
+msgstr "The reference must be unique"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur___last_update
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien___last_update
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact___last_update
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux___last_update
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux___last_update
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel___last_update
+#: model:ir.model.fields,field_description:location_biens.field_lb_location___last_update
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement___last_update
+#: model:ir.model.fields,field_description:location_biens.field_lb_quartier___last_update
+#: model:ir.model.fields,field_description:location_biens.field_lb_type___last_update
+#: model:ir.model.fields,field_description:location_biens.field_lb_ville___last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_write_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_write_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_write_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux_write_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_write_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_write_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_write_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_write_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_quartier_write_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_type_write_uid
+#: model:ir.model.fields,field_description:location_biens.field_lb_ville_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_write_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_write_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_write_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux_write_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_write_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_write_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_write_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_write_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_quartier_write_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_type_write_date
+#: model:ir.model.fields,field_description:location_biens.field_lb_ville_write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_locataire_a_jour
+#: model:ir.ui.view,arch_db:location_biens.location_tree_view
+msgid "Le locataire est-il à jour ?"
+msgstr "Is the tenant ontime"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_locataires
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_locataire_id
+msgid "Locataire"
+msgstr "Tenant"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.locataires_potentiels_form_view
+msgid "Locataire Potentiel Form"
+msgstr "Potential tenant Form"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.locataires_potentiels_tree_view
+msgid "Locataire Potentiel Tree"
+msgstr "Potential tenant Tree"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.locataire_list_action
+#: model:ir.ui.menu,name:location_biens.locataire_locataire_menu
+#: model:ir.ui.menu,name:location_biens.locataire_menu
+msgid "Locataires"
+msgstr "Tenants"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.locataire_potentiel_list_action
+#: model:ir.ui.menu,name:location_biens.locataire_potentiel_menu
+msgid "Locataires Potentiels"
+msgstr "Potential tenants"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_paiement_id
+msgid "Location"
+msgstr "Rental"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.location_form_view
+msgid "Location Form"
+msgstr "Rental Form"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.location_tree_view
+msgid "Location Tree"
+msgstr "Rental Tree"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_location
+msgid "Location associée"
+msgstr "Associated rental"
+
+#. module: location_biens
+#: model:ir.ui.menu,name:location_biens.main_rental_app_menu
+#: model:ir.ui.menu,name:location_biens.rental_app_menu
+msgid "Location des Biens"
+msgstr "Home rental"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.location_list_action
+#: model:ir.ui.menu,name:location_biens.location_menu
+msgid "Locations"
+msgstr "Rental"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.location_form_view
+#: model:ir.ui.view,arch_db:location_biens.location_tree_view
+msgid "Loyer"
+msgstr "Rent"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_loyer_avec_charges
+msgid "Loyer charges comprises"
+msgstr "Rent including charges"
+
+#. module: location_biens
+#: selection:lb.paiement,objet_paiement:0
+msgid "Loyer du mois"
+msgstr "Rent of the month"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_loyer_sans_charges
+msgid "Loyer hors charges"
+msgstr "Rent without charges"
+
+#. module: location_biens
+#: selection:lb.bailleur,civilite:0
+#: selection:lb.locataire_potentiel,civilite:0
+msgid "M. et Mme"
+msgstr "M. and Mme"
+
+#. module: location_biens
+#: selection:lb.enregistrement_etat_des_lieux,Etat:0
+msgid "Mauvais état"
+msgstr "Bad state"
+
+#. module: location_biens
+#: selection:lb.location,paiement:0
+msgid "Mensuel"
+msgstr "Monthly"
+
+#. module: location_biens
+#: selection:lb.bailleur,civilite:0
+#: selection:lb.locataire_potentiel,civilite:0
+msgid "Mlle"
+msgstr "Mlle"
+
+#. module: location_biens
+#: selection:lb.bailleur,civilite:0
+#: selection:lb.locataire_potentiel,civilite:0
+msgid "Mme"
+msgstr "Mme"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.location_form_view
+msgid "Montant"
+msgstr "Amount"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_montant_paye
+msgid "Montant Payé"
+msgstr "Paid amount"
+
+#. module: location_biens
+#: selection:lb.enregistrement_etat_des_lieux,Etat:0
+msgid "Neuf"
+msgstr "New"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_nom
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_nom
+#: model:ir.ui.view,arch_db:location_biens.locataire_custom_tree_fields
+msgid "Nom"
+msgstr "Name"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.bailleur_form_view
+#: model:ir.ui.view,arch_db:location_biens.locataires_potentiels_form_view
+msgid "Nom Complet"
+msgstr "Complete name"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_enregistrement_etat_des_lieux_nom_piece
+msgid "Nom de la pièce"
+msgstr "Name of the room"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_nom_contact
+msgid "Nom du Contact"
+msgstr "Name of the contact"
+
+#. module: location_biens
+#: selection:lb.location,locataire_a_jour:0
+msgid "Non"
+msgstr "No"
+
+#. module: location_biens
+#: selection:lb.enregistrement_etat_des_lieux,Etat:0
+msgid "Non vérifié"
+msgstr "Unverified"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_notes
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_notes_contact
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_notes
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_notes
+#: model:ir.ui.view,arch_db:location_biens.bien_form_view
+msgid "Notes"
+msgstr "Notes"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_res_partner_num_piece_identite
+#: model:ir.model.fields,field_description:location_biens.field_res_users_num_piece_identite
+msgid "Numéro de la pièce d'identité"
+msgstr "Number of ID Card"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_objet_paiement
+msgid "Objet du Paiement"
+msgstr "Reason of the payment"
+
+#. module: location_biens
+#: selection:lb.location,locataire_a_jour:0
+msgid "Oui"
+msgstr "Yes"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_enregistrement_paiement
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_paiement
+msgid "Paiements"
+msgstr "Payments"
+
+#. module: location_biens
+#: selection:lb.locataire_potentiel,company_type:0
+msgid "Particulier"
+msgstr "Individual"
+
+#. module: location_biens
+#: selection:res.partner,type_piece_identite:0
+msgid "Passport"
+msgstr "Passport"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_pays_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_pays
+#: model:ir.ui.view,arch_db:location_biens.bailleur_form_view
+#: model:ir.ui.view,arch_db:location_biens.bien_form_view
+msgid "Pays"
+msgstr "Country"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_poste_occupe
+msgid "Poste occupé"
+msgstr "Job"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_prix_location
+msgid "Prix de la location (hors charges)"
+msgstr "Rent amount without charges"
+
+#. module: location_biens
+#: selection:lb.paiement,objet_paiement:0
+msgid "Pénalités"
+msgstr "Fees"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_periode_paye_debut
+msgid "Période Payée : Début"
+msgstr "Paid period : Beggining"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_periode_paye_fin
+msgid "Période Payée : Fin"
+msgstr "Paid period : End"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_quartier
+#: model:ir.model.fields,field_description:location_biens.field_lb_quartier_nom_quartier
+#: model:ir.ui.view,arch_db:location_biens.bien_form_view
+msgid "Quartier"
+msgstr "Neighborhood"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.quartier_form_view
+msgid "Quartier Form"
+msgstr "Neighborhood Form"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.quartier_tree_view
+msgid "Quartier Tree"
+msgstr "Neighborhood Tree"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_quartier_souhaitee
+msgid "Quartier souhaité"
+msgstr "Neighborhood wanted"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.quartier_list_action
+#: model:ir.ui.menu,name:location_biens.quartier_menu
+msgid "Quartiers"
+msgstr "Neighborhoods"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.rapport_paiement_list_action
+msgid "Rapport Paiement"
+msgstr "Payment report"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.rapport_paiement_form_view
+msgid "Rapport Paiement Form"
+msgstr "Payment report Form"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.rapport_paiement_tree_view
+msgid "Rapport Paiement Tree"
+msgstr "Payment report Tree"
+
+#. module: location_biens
+#: model:ir.ui.menu,name:location_biens.rapport_rapport_menu
+msgid "Rapport de paiements"
+msgstr "Payment reports"
+
+#. module: location_biens
+#: model:ir.ui.menu,name:location_biens.rapport_menu
+msgid "Rapports"
+msgstr "Reports"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.view_bailleur_filter
+msgid "Rechercher Bailleur"
+msgstr "Search a landlord"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.view_bien_filter
+msgid "Rechercher Bien"
+msgstr "Search for a home"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.view_etat_des_lieux_filter
+msgid "Rechercher Etat des lieux"
+msgstr "Search for a checkout"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.view_locataire_filter
+msgid "Rechercher Locataire"
+msgstr "Search for a tenant"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.view_locataire_potentiel_filter
+msgid "Rechercher Locataire Potentiel"
+msgstr "Search for a potential tenant"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.view_location_filter
+#: model:ir.ui.view,arch_db:location_biens.view_rapport_paiement_filter
+msgid "Rechercher Location"
+msgstr "Search for a rental"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_reste_a_payer
+msgid "Reste à payer"
+msgstr "Left to pay"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_rue
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_rue
+msgid "Rue"
+msgstr "Street"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_reference
+msgid "Référence du Bien"
+msgstr "Home reference"
+
+#. module: location_biens
+#: selection:lb.location,paiement:0
+msgid "Semestriel"
+msgstr "Semi-annual"
+
+#. module: location_biens
+#: selection:lb.locataire_potentiel,company_type:0
+msgid "Société"
+msgstr "Society"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_statut_location
+msgid "Statut"
+msgstr "Status"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_paiement_statut_location_id
+msgid "Statut de la Location"
+msgstr "Rental status"
+
+#. module: location_biens
+#: model:ir.model.fields,help:location_biens.field_lb_location_statut_location
+#: model:ir.model.fields,help:location_biens.field_lb_paiement_statut_location_id
+msgid "Statut de la location (Actif : Location en cours)"
+msgstr "Rental status"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_superficie
+msgid "Superficie"
+msgstr "Surface"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.location_form_view
+msgid "Total"
+msgstr "Total"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.rapport_paiement_form_view
+#: model:ir.ui.view,arch_db:location_biens.rapport_paiement_tree_view
+msgid "Total des paiements"
+msgstr "Total amount of the payments"
+
+#. module: location_biens
+#: selection:lb.location,paiement:0
+msgid "Trimestriel"
+msgstr "Quarterly"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_type_id
+#: model:ir.model.fields,field_description:location_biens.field_lb_etat_des_lieux_etat_des_lieux_type
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_company_type
+#: model:ir.model.fields,field_description:location_biens.field_lb_type_type
+#: model:ir.ui.view,arch_db:location_biens.locataire_custom_tree_fields
+msgid "Type"
+msgstr "Type"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.type_form_view
+msgid "Type Form"
+msgstr "Type Form"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.type_tree_view
+msgid "Type Tree"
+msgstr "Type Tree"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_res_partner_type_piece_identite
+#: model:ir.model.fields,field_description:location_biens.field_res_users_type_piece_identite
+msgid "Type de la pièce d'identité"
+msgstr "Type of the ID card"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.type_list_action
+#: model:ir.ui.menu,name:location_biens.type_menu
+msgid "Types des Biens"
+msgstr "Type of the homes"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_telephone
+#: model:ir.model.fields,field_description:location_biens.field_lb_contact_telephone_contact
+#: model:ir.model.fields,field_description:location_biens.field_lb_locataire_potentiel_telephone
+msgid "Téléphone"
+msgstr "Telephone"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_location_utilisation
+msgid "Utilisation"
+msgstr "Usage"
+
+#. module: location_biens
+#: selection:lb.location,utilisation:0
+msgid "Utilisation principale du locataire"
+msgstr "Main usage"
+
+#. module: location_biens
+#: selection:lb.location,utilisation:0
+msgid "Utilisation professionnelle"
+msgstr "Professional usage"
+
+#. module: location_biens
+#: selection:lb.location,utilisation:0
+msgid "Utilisation secondaire du locataire"
+msgstr "Secondary usage"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_bailleur_ville
+#: model:ir.model.fields,field_description:location_biens.field_lb_bien_ville
+#: model:ir.model.fields,field_description:location_biens.field_lb_ville_nom
+#: model:ir.model.fields,field_description:location_biens.field_res_partner_ville
+#: model:ir.model.fields,field_description:location_biens.field_res_users_ville
+#: model:ir.ui.view,arch_db:location_biens.bailleur_form_view
+#: model:ir.ui.view,arch_db:location_biens.bien_form_view
+#: model:ir.ui.view,arch_db:location_biens.locataire_custom_fields
+#: model:ir.ui.view,arch_db:location_biens.quartier_tree_view
+msgid "Ville"
+msgstr "City"
+
+#. module: location_biens
+#: model:ir.model.fields,field_description:location_biens.field_lb_quartier_ville_associée
+msgid "Ville Associée"
+msgstr "Associated city"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.ville_form_view
+msgid "Ville Form"
+msgstr "City Form"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.ville_tree_view
+msgid "Ville Tree"
+msgstr "City Tree"
+
+#. module: location_biens
+#: model:ir.actions.act_window,name:location_biens.ville_list_action
+#: model:ir.ui.menu,name:location_biens.ville_menu
+msgid "Villes"
+msgstr "Cities"
+
+#. module: location_biens
+#: model:ir.ui.menu,name:location_biens.villes_quartiers_menu
+msgid "Villes et Quartiers"
+msgstr "City and Neighborhood"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_bailleur
+msgid "lb.bailleur"
+msgstr "lb.bailleur"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_bien
+msgid "lb.bien"
+msgstr "lb.bien"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_contact
+msgid "lb.contact"
+msgstr "lb.contact"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_enregistrement_etat_des_lieux
+msgid "lb.enregistrement_etat_des_lieux"
+msgstr "lb.enregistrement_etat_des_lieux"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_etat_des_lieux
+msgid "lb.etat_des_lieux"
+msgstr "lb.etat_des_lieux"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_locataire_potentiel
+msgid "lb.locataire_potentiel"
+msgstr "lb.locataire_potentiel"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_location
+msgid "lb.location"
+msgstr "lb.location"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_paiement
+msgid "lb.paiement"
+msgstr "lb.paiement"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_quartier
+msgid "lb.quartier"
+msgstr "lb.quartier"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_type
+msgid "lb.type"
+msgstr "lb.type"
+
+#. module: location_biens
+#: model:ir.model,name:location_biens.model_lb_ville
+msgid "lb.ville"
+msgstr "lb.ville"
+
+#. module: location_biens
+#: model:ir.ui.view,arch_db:location_biens.etat_des_lieux_form_view
+#: model:ir.ui.view,arch_db:location_biens.locataires_potentiels_form_view
+msgid "note interne..."
+msgstr "note interne..."
+
