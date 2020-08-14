@@ -8,4 +8,3 @@ class TestModelA(common.TransactionCase):
             self.assertEqual(
                 record.pays_id.code,
                 'MA')
-            print('Your test was succesfull!')
